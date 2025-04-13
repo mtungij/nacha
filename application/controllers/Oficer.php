@@ -5706,7 +5706,7 @@ $days_remain = $this->queries->get_loan_active_customer($customer_id);
 public function sendsms($phone,$massage){
     //$phone = '0753871034';
     //$sms = 'mapenzi yanauwa';
-    $api_key = 'WSfPPbHxmzcOgd.b';
+    $api_key = 'BDkI8DxcdcYMY7mUCUulMTziAC';
     //$api_key = 'qFzd89PXu1e/DuwbwxOE5uUBn6';
     //$curl = curl_init();
 $ch = curl_init();

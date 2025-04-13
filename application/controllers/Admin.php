@@ -7174,7 +7174,7 @@ echo $this->queries->fetch_loancustomer($this->input->post('customer_id'));
         $first_name = $data_sms->f_name;
         $midle_name = $data_sms->m_name;
         $last_name = $data_sms->l_name;
-        $massage = 'Ndugu, ' .$first_name . ' ' .$midle_name . ' ' .$last_name . ' ' .'Umelipa faini ya Tsh.'. number_format($penart_paid) . ' '.$comp_name .' kwa msaada 0627310597';
+        $massage = 'Ndugu, ' .$first_name . ' ' .$midle_name . ' ' .$last_name . ' ' .'Umelipa faini ya Tsh.'. number_format($penart_paid) . ' '.$comp_name .' kwa msaada 0754384320';
         
 			 // print_r($username);
 			 //     exit();
@@ -10370,7 +10370,7 @@ public function sendsms($phone,$massage){
 	//public function sendsms(){f
 	//$phone = '255628323760';
 	//$massage = 'mapenzi yanauwa';
-	$api_key = 'WSfPPbHxmzcOgd.b';
+	$api_key = 'BDkI8DxcdcYMY7mUCUulMTziAC';
 	//$api_key = 'qFzd89PXu1e/DuwbwxOE5uUBn6';
 	//$curl = curl_init();
   $ch = curl_init();
