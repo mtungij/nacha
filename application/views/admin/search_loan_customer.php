@@ -431,7 +431,7 @@
     var paymentMethod = document.querySelector("select[name='p_method']");
     var mobilePaymentFields = document.getElementById("mobilePaymentFields");
     var jinaWakala = document.querySelector("input[name='jina_wakala']");
-  
+    var withdrawalCharger = document.querySelector("input[name='zidi']");
 
     paymentMethod.addEventListener("change", function () {
         var selectedMethod = this.options[this.selectedIndex].text.trim().toUpperCase();
@@ -545,7 +545,10 @@
         <span> Wakala</span>
         <input type="text" class="form-control" name="jina_wakala" placeholder="Jina la Wakala">
     </div>
-   
+    <div class="col-md-6 col-6">
+        <span>Zidi</span>
+        <input type="number" class="form-control" name="zidi" placeholder="ya kutolea">
+    </div>
 </div>
                     <input type="hidden" value="<?php echo $customer->customer_id; ?>" name="customer_id">
                     <input type="hidden" value="<?php echo $customer->comp_id; ?>" name="comp_id">
